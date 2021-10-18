@@ -1,0 +1,13 @@
+As we started writing the code for the website, we figured out that setting a section for each page was the best start. We then set the parent <section> containers to:
+display: flex; 
+align-items: center;
+justify-content: evenly;
+
+Because we had the wireframe showcase two pictures on each page, we made two <div>'s each containing a picture and a small paragraph of text. Because we had set the parent <section> to "justify-content: evenly" the two <div>'s would spread out evenly. This, however, did not look very good as they were being pushed further away from each other than we wanted, so we set margins on the sides facing the edge of the screen so that each <div> was closer to each other. There was also a small margin in between the <div>'s to make sure they did not collide if the screen became smaller. 
+
+When making the website responsive for smaller screens, we first set 
+flex-direction: column;
+On each section to make them displayed underneath each other instead of next to each other like we did for larger screens. 
+At first, we also did not understand why each <div> were displayed differently. We quickly realized that it was because of the margins set earlier. Removing the side margins on smaller screens fixed this issue and make the images display normally. 
+
+Normally, we do not use the <picture> attribute as we usually change the image sizes in CSS. This time however, we chose <picture> as this was what we were most familiar with.

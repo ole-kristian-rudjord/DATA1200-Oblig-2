@@ -30,22 +30,29 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(223, 252, 253); */
 }
 .Page1-Full h1 {
+
     font-family: alloyInk;
     position: absolute;
     top: 20%;
     left: 20%;
     color: rgb(233, 221, 57);
     background-color: rgba(64, 224, 208, 0.5);
+
+  
+
     border: rgba(255, 255, 255, 0.2) solid 1px;
     border-radius: 5px;
     padding: 20px;
 }
 .Page1-Full p {
+
     font-family: sunnySpells;
     font-weight: 400;
+
+    
+
     position: absolute;
     width: 500px;
     background-color: rgba(54, 190, 177, 0.8);
@@ -54,11 +61,6 @@ body {
     padding: 20px;
     bottom: 20%;
     right: 15%;
-}
-.Page1-Full img {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 50px;
 }
 
 .Page-Full {
@@ -70,7 +72,7 @@ body {
     padding: 10vh 0;
 }
 .Page-Sections {
-    width: 700px;
+    width: 760px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -84,14 +86,14 @@ body {
     font-family: sunnySpells;
     font-weight: 400;
     padding: 10px;
-    width: 90%;
     background-color: rgb(54, 190, 177);
     border: rgba(255, 255, 255, 0.2) solid 3px;
     border-radius: 5px;
     margin-top: -20px;
 }
 .Page-Sections img {
-    width: 100%;
+    height: 350px;
+    object-fit: cover;
     border-radius: 3px;
 }
 .Page-Section1 {
@@ -113,14 +115,14 @@ body {
         margin-bottom: -10px;
         z-index: 10;
     }
-    .Page1-Full img {
-        width: 90%;
-    }
     .Page1-Full p {
         position: inherit;
         width: 80%;
         margin-top: -10px;
         order: 3;
+    }
+    .Page1-Full img {
+        width: 100%;
     }
 
     .Page-Full {
