@@ -91,6 +91,18 @@ body {
     margin-left: 1%;
 }
 
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    background-color: rgb(54, 190, 177);
+    border-radius: 5px 5px 0 0;
+}
+
 @media only screen and (max-width: 800px) {
     .Page1-Full {
         height: 100vh;
